@@ -23,6 +23,7 @@
      "playerMove": "1",              // player move
      "computerMove": "0"             // computer move
   }`
+- Logs has been enabled for this project. Please check the logs in case you find any difficulty. 
 
 ![demo4](./swagger.png?raw=true)
 ![demo4](./swagger1.png?raw=true)

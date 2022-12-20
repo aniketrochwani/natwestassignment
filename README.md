@@ -15,6 +15,15 @@
 
 - Open the project in Intellij and run `maven clean install` and run the project.
 - Once server started the project will be hosted at `http://localhost:8080/swagger-ui/index.html`
-- In swagger, the endpoint is listed in `game-controller`. 
+- In swagger, the endpoint is listed in `game-controller`.
+- The response of the API will be
+  ```
+  {
+     "matchResponse": "Player wins", // return winner
+     "playerMove": "1",              // player move
+     "computerMove": "0"             // computer move
+  }`
 
-![demo4](./swagger.png?raw=true "Client")
+![demo4](./swagger.png?raw=true)
+![demo4](./swagger1.png?raw=true)
+![demo4](./swagger2.png?raw=true)
